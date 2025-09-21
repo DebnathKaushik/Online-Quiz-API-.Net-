@@ -47,6 +47,16 @@ namespace BLL.Services
         // Add new Quiz
         public static QuizDTO Add(QuizDTO dto)
         {
+            // Ensure default times if only date provided
+            if (dto.StartTime.TimeOfDay == TimeSpan.Zero)
+            {
+                dto.StartTime = dto.StartTime.Date.AddHours(10); // default 10AM
+            }
+            if (dto.EndTime.TimeOfDay == TimeSpan.Zero)
+            {
+                dto.EndTime = dto.EndTime.Date.AddHours(11); // default 11 AM
+            }
+
             var entity = GetMapper().Map<Quiz>(dto);
             var added = DataAccessFactory.QuizData().Add(entity);
             return GetMapper().Map<QuizDTO>(added);

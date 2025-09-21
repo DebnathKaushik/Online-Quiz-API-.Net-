@@ -49,7 +49,7 @@ namespace ApplicationLayer.Controllers
             return Request.CreateResponse(HttpStatusCode.Created, data);
         }
 
-        // PUT: api/subject/update/5
+        // PATCH: api/subject/update/5
         [HttpPatch]
         [Route("update/{id:int}")]
         public HttpResponseMessage Update(int id , [FromBody] SubjectDTO dto)

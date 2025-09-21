@@ -54,7 +54,7 @@ namespace ApplicationLayer.Controllers
         }
 
 
-        // PUT: api/teacher/update/55
+        // PATCH: api/teacher/update/55
         [HttpPatch]
         [Route("update/{id:int}")]
         public HttpResponseMessage Update(int id, [FromBody] TeacherDTO dto)
