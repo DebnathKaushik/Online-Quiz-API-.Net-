@@ -1,0 +1,14 @@
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\DAL\bin\Debug\DAL.dll
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\DAL\bin\Debug\DAL.pdb
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\DAL\obj\Debug\DAL.dll
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\DAL\obj\Debug\DAL.pdb
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\DAL\bin\Debug\DAL.dll.config
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\DAL\bin\Debug\EntityFramework.dll
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\DAL\bin\Debug\EntityFramework.xml
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\DAL\obj\Debug\DAL.Migrations.InitDB.resources
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\DAL\obj\Debug\DAL.csproj.GenerateResource.cache

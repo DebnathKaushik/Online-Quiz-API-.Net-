@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationLayer", "ApplicationLayer\ApplicationLayer.csproj", "{F6401276-8B13-4234-933A-D5BD2C2727C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{EC3478D9-0ACE-46E1-8E51-E1C545527C51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6401276-8B13-4234-933A-D5BD2C2727C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6401276-8B13-4234-933A-D5BD2C2727C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6401276-8B13-4234-933A-D5BD2C2727C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6401276-8B13-4234-933A-D5BD2C2727C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC3478D9-0ACE-46E1-8E51-E1C545527C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3478D9-0ACE-46E1-8E51-E1C545527C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3478D9-0ACE-46E1-8E51-E1C545527C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3478D9-0ACE-46E1-8E51-E1C545527C51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67A0F167-8C67-4C05-99F4-9FB660CAD6BA}
+	EndGlobalSection
+EndGlobal

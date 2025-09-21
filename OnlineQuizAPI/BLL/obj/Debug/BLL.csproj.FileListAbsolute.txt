@@ -1,0 +1,14 @@
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\BLL\bin\Debug\BLL.dll
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\BLL\bin\Debug\BLL.pdb
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\BLL\bin\Debug\DAL.dll
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\BLL\bin\Debug\DAL.pdb
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\BLL\obj\Debug\BLL.dll
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\BLL\obj\Debug\BLL.pdb
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\BLL\bin\Debug\AutoMapper.dll
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\BLL\bin\Debug\EntityFramework.dll
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\BLL\bin\Debug\DAL.dll.config
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\BLL\bin\Debug\AutoMapper.xml
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\BLL\bin\Debug\EntityFramework.xml
