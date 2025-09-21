@@ -9,77 +9,77 @@ using System.Web.Http;
 
 namespace ApplicationLayer.Controllers
 {
-    // Common route to Student
-    [RoutePrefix("api/student")]
-    public class StudentController : ApiController
+    // Common route for teacher
+    [RoutePrefix("api/teacher")]
+    public class TeacherController : ApiController
     {
-        // GET: api/student/all
+        // GET: api/teacher/all
         [HttpGet]
         [Route("all")]
         public HttpResponseMessage GetAll()
         {
-            var data = StudentService.GetAll();
+            var data = TeacherService.GetAll();
             if(data == null)
             {
-                return  Request.CreateResponse(HttpStatusCode.NotFound , "No Student found");
+                return Request.CreateResponse(HttpStatusCode.NotFound,"No Teacher Found!");
             }
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
 
-        // GET: api/student/5
+        // GET: api/teacher/12
         [HttpGet]
         [Route("{id:int}")]
         public HttpResponseMessage GetById(int id)
         {
-            var data = StudentService.Get(id);
+            var data = TeacherService.Get(id);
             if (data == null)
             {
-                return Request.CreateResponse(HttpStatusCode.NotFound, "Student not found by this ID");
+                return Request.CreateResponse(HttpStatusCode.NotFound, "Teacher not found by this ID");
             }
 
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
 
-        // POST: api/student/add
+        // POST: api/teacher/add
         [HttpPost]
         [Route("add")]
-        public HttpResponseMessage Add([FromBody] StudentDTO dto)
+        public HttpResponseMessage Add([FromBody] TeacherDTO dto)
         {
-          
-            var data = StudentService.Add(dto);
+            var data = TeacherService.Add(dto);
             if(data == null)
             {
-                return Request.CreateResponse(HttpStatusCode.BadRequest, "Student Not Created");
+                return Request.CreateResponse(HttpStatusCode.BadRequest, "Teacher Not Created");
             }
             return Request.CreateResponse(HttpStatusCode.Created, data);
         }
 
-        // PATCH: api/student/update
+
+        // PUT: api/teacher/update/55
         [HttpPatch]
         [Route("update/{id:int}")]
-        public HttpResponseMessage Update(int id, [FromBody]  StudentDTO dto)
+        public HttpResponseMessage Update(int id, [FromBody] TeacherDTO dto)
         {
-           
-            //map id(url id) = dto.id(student obj id)
-            dto.StudentId = id;
-
-            var data = StudentService.Update(dto);
+            // //map id(url id) = dto.id(Teacher obj id)
+            dto.TeacherId = id; 
+            var data = TeacherService.Update(dto);
             if (data == null)
-                return Request.CreateResponse(HttpStatusCode.NotFound, "Student not found");
+                return Request.CreateResponse(HttpStatusCode.NotFound, "Teacher not found");
 
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
 
-        // DELETE: api/student/5
+
+        // DELETE: api/teacher/delete/14
         [HttpDelete]
         [Route("delete/{id:int}")]
         public HttpResponseMessage Delete(int id)
         {
-            var result = StudentService.Delete(id);
+            var result = TeacherService.Delete(id);
             if (!result)
-                return Request.CreateResponse(HttpStatusCode.NotFound, "Student not found");
+                return Request.CreateResponse(HttpStatusCode.NotFound, "Teacher not found");
 
             return Request.CreateResponse(HttpStatusCode.OK, "Deleted successfully");
         }
+
     }
 }
