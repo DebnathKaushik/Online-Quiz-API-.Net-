@@ -98,5 +98,38 @@ namespace ApplicationLayer.Controllers
 
             return Request.CreateResponse(HttpStatusCode.OK, "Deleted successfully");
         }
+
+
+
+        // ----------------------------(Search/filter)-------------------------------
+        [HttpGet]
+        [Route("search")]
+        public HttpResponseMessage Search(string title = null, int? teacherId = null)
+        {
+            var data = QuizService.GetAll();
+
+            // now filter title 
+            if (!string.IsNullOrEmpty(title))
+            {
+                data = data.Where(q => q.Title.IndexOf(title, StringComparison.OrdinalIgnoreCase) >= 0).ToList();
+            }
+
+            // now filter teacher id
+            if (teacherId.HasValue)
+            {
+                data = data.Where(q => q.TeacherId ==  teacherId.Value).ToList();
+            }
+
+            // if No data found in db
+            if (!data.Any())
+            {
+                return Request.CreateResponse(HttpStatusCode.NotFound, "No quizzes found based on this Parameter");
+            }
+
+            return Request.CreateResponse(HttpStatusCode.OK, data);
+
+        }
+
+
     }
 }
