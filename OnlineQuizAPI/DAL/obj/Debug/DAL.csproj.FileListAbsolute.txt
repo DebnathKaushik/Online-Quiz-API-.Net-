@@ -12,3 +12,5 @@ D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\DAL\bin\Debug\EntityFr
 D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\DAL\obj\Debug\DAL.Migrations.InitDB.resources
 D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\DAL\obj\Debug\DAL.Migrations.NotificationTableAdd.resources
+D:\My Stuff\PROJECTS\Online Quiz API (.Net)\OnlineQuizAPI\DAL\obj\Debug\DAL.Migrations.NotificationTable.resources

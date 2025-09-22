@@ -17,5 +17,7 @@ namespace DAL.EF
         public DbSet<Question> Questions { get; set; }
         public DbSet<Option> Options { get; set; }
         public DbSet<StudentQuizAttempt> StudentQuizAttempts { get; set; }
+
+        public DbSet<Notification> Notifications { get; set; }
     }
 }

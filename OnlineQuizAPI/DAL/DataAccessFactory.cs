@@ -52,5 +52,11 @@ namespace DAL
         {
             return new SubjectRepo();
         }
+
+        // Notification
+        public static INotificationRepo NotificationData() 
+        {
+            return new NotificationRepo();
+        }
     }
 }
