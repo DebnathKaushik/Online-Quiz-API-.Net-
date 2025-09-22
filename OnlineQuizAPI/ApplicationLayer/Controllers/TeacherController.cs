@@ -59,7 +59,7 @@ namespace ApplicationLayer.Controllers
         [Route("update/{id:int}")]
         public HttpResponseMessage Update(int id, [FromBody] TeacherDTO dto)
         {
-            // //map id(url id) = dto.id(Teacher obj id)
+            // Store id(url id) -> dto.id(Teacher obj id)
             dto.TeacherId = id; 
             var data = TeacherService.Update(dto);
             if (data == null)

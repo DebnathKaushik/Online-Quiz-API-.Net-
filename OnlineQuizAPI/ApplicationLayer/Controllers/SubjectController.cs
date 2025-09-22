@@ -54,7 +54,7 @@ namespace ApplicationLayer.Controllers
         [Route("update/{id:int}")]
         public HttpResponseMessage Update(int id , [FromBody] SubjectDTO dto)
         {
-            //map id(url id) = dto.id(Subject obj id)
+            //store id(url id) -> dto.id(Subject obj id)
             dto.SubjectId = id;
             var data = SubjectService.Update(dto);
             if (data == null)

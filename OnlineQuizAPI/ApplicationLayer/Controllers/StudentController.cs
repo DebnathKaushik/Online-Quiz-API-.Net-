@@ -60,7 +60,7 @@ namespace ApplicationLayer.Controllers
         public HttpResponseMessage Update(int id, [FromBody]  StudentDTO dto)
         {
            
-            //map id(url id) = dto.id(student obj id)
+            //store id(url id) -> dto.id(student obj id)
             dto.StudentId = id;
 
             var data = StudentService.Update(dto);
