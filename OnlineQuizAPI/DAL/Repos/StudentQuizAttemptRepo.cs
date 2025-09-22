@@ -43,7 +43,10 @@ namespace DAL.Repos
         public StudentQuizAttempt Update(StudentQuizAttempt attempt)
         {
             var existing = db.StudentQuizAttempts.Find(attempt.AttemptId);
-            if (existing == null) return null;
+            if (existing == null) 
+            { 
+                return null; 
+            }
 
             db.Entry(existing).CurrentValues.SetValues(attempt);
             db.SaveChanges();

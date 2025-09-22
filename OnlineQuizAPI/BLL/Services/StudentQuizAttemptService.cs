@@ -38,6 +38,16 @@ namespace BLL.Services
         // Add Attempt
         public static StudentQuizAttemptDTO Add(StudentQuizAttemptDTO dto)
         {
+            // Ensure default times if only date provided
+            if (dto.StartedAt.TimeOfDay == TimeSpan.Zero)
+            {
+                dto.StartedAt = dto.StartedAt.Date.AddHours(10); // default 10AM
+            }
+            if (!dto.CompletedAt.HasValue || dto.CompletedAt.Value.TimeOfDay == TimeSpan.Zero)
+            {
+                dto.CompletedAt = dto.StartedAt.AddHours(1); //  1 hour after start
+            }
+
             var entity = GetMapper().Map<StudentQuizAttempt>(dto);
             var added = DataAccessFactory.StudentQuizAttemptData().Add(entity);
             return GetMapper().Map<StudentQuizAttemptDTO>(added);
