@@ -13,7 +13,7 @@ namespace ApplicationLayer.Controllers
     [RoutePrefix("api/student")]
     public class StudentController : ApiController
     {
-        // GET: api/student/all
+        // api/student/all
         [HttpGet]
         [Route("all")]
         public HttpResponseMessage GetAll()
@@ -26,7 +26,7 @@ namespace ApplicationLayer.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
 
-        // GET: api/student/5
+        // api/student/5
         [HttpGet]
         [Route("{id:int}")]
         public HttpResponseMessage GetById(int id)
@@ -40,7 +40,7 @@ namespace ApplicationLayer.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
 
-        // POST: api/student/add
+        // api/student/add
         [HttpPost]
         [Route("add")]
         public HttpResponseMessage Add([FromBody] StudentDTO dto)
@@ -54,30 +54,34 @@ namespace ApplicationLayer.Controllers
             return Request.CreateResponse(HttpStatusCode.Created, data);
         }
 
-        // PATCH: api/student/update/5
+        // api/student/update/5
         [HttpPatch]
         [Route("update/{id:int}")]
         public HttpResponseMessage Update(int id, [FromBody]  StudentDTO dto)
         {
            
-            //store id(url id) -> dto.id(student obj id)
+            
             dto.StudentId = id;
 
             var data = StudentService.Update(dto);
             if (data == null)
+            {
                 return Request.CreateResponse(HttpStatusCode.NotFound, "Student not found");
-
+            }
+                
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
 
-        // DELETE: api/student/5
+        // api/student/5
         [HttpDelete]
         [Route("delete/{id:int}")]
         public HttpResponseMessage Delete(int id)
         {
             var result = StudentService.Delete(id);
             if (!result)
+            {
                 return Request.CreateResponse(HttpStatusCode.NotFound, "Student not found");
+            }
 
             return Request.CreateResponse(HttpStatusCode.OK, "Deleted successfully");
         }

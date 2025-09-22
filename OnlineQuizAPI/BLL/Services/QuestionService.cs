@@ -19,7 +19,8 @@ namespace BLL.Services
             {
                 cfg.CreateMap<Question, QuestionDTO>().ReverseMap();
                 cfg.CreateMap<Question, QuestionDetailDTO>().ReverseMap();
-                cfg.CreateMap<Quiz, QuizDTO>().ReverseMap(); // For details
+                cfg.CreateMap<Option, OptionDTO>().ReverseMap();
+                cfg.CreateMap<Quiz, QuizDTO>().ReverseMap(); 
             });
             return new Mapper(config);
         }
@@ -46,6 +47,38 @@ namespace BLL.Services
             var added = DataAccessFactory.QuestionData().Add(entity);
             return GetMapper().Map<QuestionDTO>(added);
         }
+
+        // Add New Question with Options
+        public static QuestionDetailDTO AddwithOption(QuestionDetailDTO dto)
+        {
+            var question = GetMapper().Map<Question>(dto);
+
+            // Save the question first
+            var addedQuestion = DataAccessFactory.QuestionData().Add(question);
+
+            // Save options if provided
+            if (dto.Options != null && dto.Options.Any())
+            {
+                foreach (var optDto in dto.Options)
+                {
+                    optDto.QuestionId = addedQuestion.QuestionId;
+                    var option = GetMapper().Map<Option>(optDto);
+                    DataAccessFactory.OptionData().Add(option);
+                }
+            }
+
+            // Reload question with options from DB to get OptionIds and prevent duplication
+            var savedQuestion = DataAccessFactory.QuestionData()
+                                    .GetAll()
+                                    .FirstOrDefault(q => q.QuestionId == addedQuestion.QuestionId);
+
+            return GetMapper().Map<QuestionDetailDTO>(savedQuestion);
+        }
+
+
+
+
+
 
         // Update existing question
         public static QuestionDTO Update(QuestionDTO dto)

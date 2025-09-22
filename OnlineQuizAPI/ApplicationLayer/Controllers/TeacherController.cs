@@ -13,7 +13,7 @@ namespace ApplicationLayer.Controllers
     [RoutePrefix("api/teacher")]
     public class TeacherController : ApiController
     {
-        // GET: api/teacher/all
+        // api/teacher/all
         [HttpGet]
         [Route("all")]
         public HttpResponseMessage GetAll()
@@ -26,7 +26,7 @@ namespace ApplicationLayer.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
 
-        // GET: api/teacher/12
+        // api/teacher/12
         [HttpGet]
         [Route("{id:int}")]
         public HttpResponseMessage GetById(int id)
@@ -40,7 +40,7 @@ namespace ApplicationLayer.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
 
-        // POST: api/teacher/add
+        // api/teacher/add
         [HttpPost]
         [Route("add")]
         public HttpResponseMessage Add([FromBody] TeacherDTO dto)
@@ -54,30 +54,33 @@ namespace ApplicationLayer.Controllers
         }
 
 
-        // PATCH: api/teacher/update/55
+        // api/teacher/update/55
         [HttpPatch]
         [Route("update/{id:int}")]
         public HttpResponseMessage Update(int id, [FromBody] TeacherDTO dto)
         {
-            // Store id(url id) -> dto.id(Teacher obj id)
-            dto.TeacherId = id; 
+            
+            dto.TeacherId = id;  // store url(id) in Teacher Obj Id
             var data = TeacherService.Update(dto);
             if (data == null)
+            {
                 return Request.CreateResponse(HttpStatusCode.NotFound, "Teacher not found");
+            }
 
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
 
 
-        // DELETE: api/teacher/delete/14
+        // api/teacher/delete/14
         [HttpDelete]
         [Route("delete/{id:int}")]
         public HttpResponseMessage Delete(int id)
         {
             var result = TeacherService.Delete(id);
             if (!result)
+            {
                 return Request.CreateResponse(HttpStatusCode.NotFound, "Teacher not found");
-
+            }
             return Request.CreateResponse(HttpStatusCode.OK, "Deleted successfully");
         }
 

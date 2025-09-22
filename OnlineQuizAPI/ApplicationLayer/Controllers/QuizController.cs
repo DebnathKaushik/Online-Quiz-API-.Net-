@@ -13,7 +13,7 @@ namespace ApplicationLayer.Controllers
     [RoutePrefix("api/quiz")]
     public class QuizController : ApiController
     {
-        // GET: api/quiz/all
+        // api/quiz/all
         [HttpGet]
         [Route("all")]
         public HttpResponseMessage GetAll()
@@ -26,7 +26,7 @@ namespace ApplicationLayer.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
 
-        // GET: api/quiz/by-teacher/3
+        // api/quiz/by-teacher/3
         [HttpGet]
         [Route("by-teacher/{teacherId:int}")]
         public HttpResponseMessage GetByTeacher(int teacherId)
@@ -39,7 +39,7 @@ namespace ApplicationLayer.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
 
-        // GET: api/quiz/by-subject-name/Math
+        // api/quiz/by-subject-name/Math
         [HttpGet]
         [Route("by-subject-name/{subjectName}")]
         public HttpResponseMessage GetBySubject(string subjectName)
@@ -53,7 +53,7 @@ namespace ApplicationLayer.Controllers
         }
 
 
-        // POST: api/quiz/add
+        // api/quiz/add
         [HttpPost]
         [Route("add")]
         public HttpResponseMessage Add([FromBody] QuizDTO dto)
@@ -67,12 +67,12 @@ namespace ApplicationLayer.Controllers
         }
 
 
-        // PATCH: api/quiz/update/6
+        // api/quiz/update/6
         [HttpPatch]
         [Route("update/{id:int}")]
         public HttpResponseMessage Update(int id ,[FromBody] QuizDTO dto)
         {
-            //Store id(url id) -> dto.id(Quiz obj id)
+            
             dto.QuizId = id;
 
             var data = QuizService.Update(dto);
@@ -85,7 +85,7 @@ namespace ApplicationLayer.Controllers
         }
 
 
-        // DELETE: api/quiz/delete/5
+        // api/quiz/delete/5
         [HttpDelete]
         [Route("delete/{id:int}")]
         public HttpResponseMessage Delete(int id)

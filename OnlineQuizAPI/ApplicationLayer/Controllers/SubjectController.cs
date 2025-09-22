@@ -13,7 +13,7 @@ namespace ApplicationLayer.Controllers
     [RoutePrefix("api/subject")]
     public class SubjectController : ApiController
     {
-        // GET: api/subject/all
+        // api/subject/all
         [HttpGet]
         [Route("all")]
         public HttpResponseMessage GetAll()
@@ -27,20 +27,21 @@ namespace ApplicationLayer.Controllers
         }
 
 
-        // GET: api/subject/byquizId/5
+        // api/subject/byquizId/5
         [HttpGet]
         [Route("byquizId/{quizId:int}")]
         public HttpResponseMessage GetByQuiz(int quizId)
         {
             var data = SubjectService.GetByQuiz(quizId);
             if (data == null)
+            {
                 return Request.CreateResponse(HttpStatusCode.NotFound, "Subject not found for this quiz ID");
-
+            }
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
 
 
-        // POST: api/subject/add
+        // api/subject/add
         [HttpPost]
         [Route("add")]
         public HttpResponseMessage Add([FromBody] SubjectDTO dto)
@@ -49,7 +50,7 @@ namespace ApplicationLayer.Controllers
             return Request.CreateResponse(HttpStatusCode.Created, data);
         }
 
-        // PATCH: api/subject/update/5
+        // api/subject/update/5
         [HttpPatch]
         [Route("update/{id:int}")]
         public HttpResponseMessage Update(int id , [FromBody] SubjectDTO dto)
@@ -58,19 +59,22 @@ namespace ApplicationLayer.Controllers
             dto.SubjectId = id;
             var data = SubjectService.Update(dto);
             if (data == null)
+            {
                 return Request.CreateResponse(HttpStatusCode.NotFound, "Subject not found");
-
+            }
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
 
-        // DELETE: api/subject/delete/5
+        // api/subject/delete/5
         [HttpDelete]
         [Route("delete/{id:int}")]
         public HttpResponseMessage Delete(int id)
         {
             var result = SubjectService.Delete(id);
             if (!result)
+            {
                 return Request.CreateResponse(HttpStatusCode.NotFound, "Subject not found");
+            }
 
             return Request.CreateResponse(HttpStatusCode.OK, "Deleted successfully");
         }
