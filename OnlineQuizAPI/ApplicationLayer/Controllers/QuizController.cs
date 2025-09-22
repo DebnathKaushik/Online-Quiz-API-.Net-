@@ -19,7 +19,7 @@ namespace ApplicationLayer.Controllers
         public HttpResponseMessage GetAll()
         {
             var data = QuizService.GetAll();
-            if (data == null)
+            if (data == null || !data.Any()) // Check for empty list !data.any() 
             {
                 return Request.CreateResponse(HttpStatusCode.NotFound, "No Quiz found");
             }

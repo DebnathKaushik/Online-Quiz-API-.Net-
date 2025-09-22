@@ -19,7 +19,7 @@ namespace ApplicationLayer.Controllers
         public HttpResponseMessage GetAll()
         {
             var data = SubjectService.GetAll();
-            if(data == null)
+            if(data == null || !data.Any()) // Check for empty list !data.any() 
             {
                 return Request.CreateResponse(HttpStatusCode.NotFound,"No Subjects Found!");
             }
@@ -34,7 +34,7 @@ namespace ApplicationLayer.Controllers
         {
             var data = SubjectService.GetByQuiz(quizId);
             if (data == null)
-                return Request.CreateResponse(HttpStatusCode.NotFound, "Subject not found for this quiz");
+                return Request.CreateResponse(HttpStatusCode.NotFound, "Subject not found for this quiz ID");
 
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }

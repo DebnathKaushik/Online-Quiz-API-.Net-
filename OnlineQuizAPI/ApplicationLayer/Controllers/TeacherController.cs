@@ -19,7 +19,7 @@ namespace ApplicationLayer.Controllers
         public HttpResponseMessage GetAll()
         {
             var data = TeacherService.GetAll();
-            if(data == null)
+            if(data == null || !data.Any()) // Check for empty list !data.any() 
             {
                 return Request.CreateResponse(HttpStatusCode.NotFound,"No Teacher Found!");
             }
