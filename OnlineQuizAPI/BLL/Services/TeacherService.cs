@@ -43,6 +43,13 @@ namespace BLL.Services
         {
             var entity = GetMapper().Map<Teacher>(dto);
             var added = DataAccessFactory.TeacherData().Add(entity);
+            // after Teacher added then notification trigger
+            NotificationService.Add(
+                new NotificationDTO
+                {
+                    Message = $"Welcome {added.Name} your account has been created successfully!",
+                    CreatedAt = DateTime.Now
+                });
             return GetMapper().Map<TeacherDTO>(added);
         }
 
