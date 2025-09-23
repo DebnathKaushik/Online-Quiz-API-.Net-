@@ -144,5 +144,25 @@ namespace ApplicationLayer.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
 
+        // ------------------(Quiz status change)--------------------------------------------
+        [HttpPatch]
+        [Route("status/{quizId:int}/{teacherId:int}/{newStatus:bool}")]
+        public HttpResponseMessage ChangeStatus(int quizId, int teacherId, bool newStatus)
+        {
+            var success = QuizService.changeQuizStatus(quizId, teacherId, newStatus);
+
+            if (!success)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, "Quiz not found or teacher not found!");
+            }
+
+            return Request.CreateResponse(HttpStatusCode.OK, $"Quiz status updated to {(newStatus ? "Active" : "Inactive")}");
+        }
+
+
+
+
+
+
     }
 }

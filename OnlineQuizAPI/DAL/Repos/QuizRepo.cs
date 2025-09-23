@@ -61,6 +61,12 @@ namespace DAL.Repos
             return db.Quizzes.ToList();
         }
 
+        // Get quiz by Quiz Id
+        public Quiz Get(int id)
+        {
+            return db.Quizzes.Find(id);
+        }
+
 
         // Get all Quizzes by Subject Name
         public List<Quiz> GetBySubjectName(string subjectName)
@@ -77,6 +83,6 @@ namespace DAL.Repos
             return db.Quizzes.Where(q => q.TeacherId == teacherId).ToList();
         }
 
-       
+        
     }
 }

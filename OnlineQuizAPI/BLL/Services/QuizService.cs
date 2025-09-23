@@ -87,7 +87,8 @@ namespace BLL.Services
             // Count attempts per quiz
             var recommendedQuiz = attempts
                 .GroupBy(a => a.QuizId)
-                .Select(g => new {
+                .Select(g => new
+                {
                     QuizId = g.Key,
                     Count = g.Count()
                 })
@@ -100,16 +101,29 @@ namespace BLL.Services
                     AttemptCount = g.Count
                 })
                 .OrderByDescending(r => r.AttemptCount)
-                .Take(top)
+                .Take(top) // that is from url query param , how many recommondation i want to show 
                 .ToList();
 
             return recommendedQuiz;
         }
 
+        // ----------------(Quiz status change by the Teacher )---------------
+        public static bool changeQuizStatus(int teacherId, int quizId, bool newStatus)
+        {
+            var quiz = DataAccessFactory.QuizData().Get(quizId);
+            if (quiz == null)
+            {
+                return false;
+            }
+            if (quiz.TeacherId != teacherId)
+            {
+                return false;
+            }
 
-
-
-
-
+            // if all okk then , change status
+            quiz.IsActive = newStatus;
+            DataAccessFactory.QuizData().Update(quiz);
+            return true;
+        }
     }
 }

@@ -15,6 +15,8 @@ namespace DAL.Interfaces
         bool Delete(int id);
         List<Quiz> GetAll();
 
+        Quiz Get(int id);
+
         // Quiz-specific
         List<Quiz> GetByTeacher(int teacherId);
         List<Quiz> GetBySubjectName(string subjectName);
