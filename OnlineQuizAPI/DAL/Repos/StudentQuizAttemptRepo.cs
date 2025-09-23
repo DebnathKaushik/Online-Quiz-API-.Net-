@@ -53,6 +53,13 @@ namespace DAL.Repos
             return existing;
         }
 
+        // Get All StudentQuizAttempt
+        public List<StudentQuizAttempt> GetAll()
+        {
+            return db.StudentQuizAttempts.ToList();
+        }
+
+
         // Get all StudentQuizAttempt By Quiz Id
         public List<StudentQuizAttempt> GetByQuiz(int quizId)
         {

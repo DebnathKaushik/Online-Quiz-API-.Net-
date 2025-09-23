@@ -48,6 +48,7 @@
     <Compile Include="DTOs\NotificationDTO.cs" />
     <Compile Include="DTOs\OptionDetailsDTO.cs" />
     <Compile Include="DTOs\OptionDTO.cs" />
+    <Compile Include="DTOs\PopularQuizDTO.cs" />
     <Compile Include="DTOs\QuestionDetailDTO.cs" />
     <Compile Include="DTOs\QuestionDTO.cs" />
     <Compile Include="DTOs\QuizDetailDTO.cs" />

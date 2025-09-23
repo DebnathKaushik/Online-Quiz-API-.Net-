@@ -77,6 +77,36 @@ namespace BLL.Services
         }
 
 
+        // ----------------Recommondation of Popular Quiz (by Student attempt)-----------------
+        // from  PopularQuizDTO in DTo
+        public static List<PopularQuizDTO> GetPopularQuizzes(int top)
+        {
+            var attempts = DataAccessFactory.StudentQuizAttemptData().GetAll();
+            var quizzes = DataAccessFactory.QuizData().GetAll();
+
+            // Count attempts per quiz
+            var recommendedQuiz = attempts
+                .GroupBy(a => a.QuizId)
+                .Select(g => new {
+                    QuizId = g.Key,
+                    Count = g.Count()
+                })
+                .Join(quizzes, g => g.QuizId, q => q.QuizId, (g, q) => new PopularQuizDTO
+                {
+                    QuizId = q.QuizId,
+                    Title = q.Title,
+                    SubjectName = q.Subject.Name,
+                    TeacherId = q.TeacherId,
+                    AttemptCount = g.Count
+                })
+                .OrderByDescending(r => r.AttemptCount)
+                .Take(top)
+                .ToList();
+
+            return recommendedQuiz;
+        }
+
+
 
 
 

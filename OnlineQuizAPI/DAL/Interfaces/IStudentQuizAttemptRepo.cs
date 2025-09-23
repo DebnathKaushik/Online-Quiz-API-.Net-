@@ -13,6 +13,7 @@ namespace DAL.Interfaces
         StudentQuizAttempt Add(StudentQuizAttempt attempt);
         StudentQuizAttempt Update(StudentQuizAttempt attempt);
         bool Delete(int id);
+        List<StudentQuizAttempt>GetAll();
 
         // Student-specific
         List<StudentQuizAttempt> GetByStudent(int studentId);

@@ -130,6 +130,19 @@ namespace ApplicationLayer.Controllers
 
         }
 
+        // ----------------------------(Recommondation Quiz)-------------------------------
+
+        [HttpGet]
+        [Route("popular")]
+        public HttpResponseMessage GetPopularQuizzes(int top) // here top is quesy param(that i pass from url)
+        {
+            var data = QuizService.GetPopularQuizzes(top);
+            if(data == null || !data.Any())
+            {
+                return Request.CreateResponse(HttpStatusCode.NotFound, "No Recommodation found");
+            }
+            return Request.CreateResponse(HttpStatusCode.OK, data);
+        }
 
     }
 }
