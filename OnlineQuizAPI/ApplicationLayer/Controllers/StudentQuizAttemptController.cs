@@ -50,7 +50,11 @@ namespace ApplicationLayer.Controllers
             {
                 return Request.CreateResponse(HttpStatusCode.BadRequest, "Student Attempt Quiz  not created");
             }
-            return Request.CreateResponse(HttpStatusCode.Created, data);
+            return Request.CreateResponse(HttpStatusCode.Created, new
+            {
+                Message = "Student Attempt this Quiz Succesfully",
+                data
+            });
         }
 
 

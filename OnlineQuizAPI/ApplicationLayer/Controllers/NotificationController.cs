@@ -22,7 +22,9 @@ namespace ApplicationLayer.Controllers
             {
                 return Request.CreateResponse(HttpStatusCode.NotFound, "Notification's Not Found");
             }
-            return Request.CreateResponse(HttpStatusCode.OK, data);
+            return Request.CreateResponse(HttpStatusCode.OK, new { 
+                Message="Here is all Notification",
+                data });
         }
 
 

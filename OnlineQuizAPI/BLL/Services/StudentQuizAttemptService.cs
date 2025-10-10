@@ -41,7 +41,7 @@ namespace BLL.Services
             // Ensure default times if only date provided
             if (dto.StartedAt.TimeOfDay == TimeSpan.Zero)
             {
-                dto.StartedAt = dto.StartedAt.Date.AddHours(10); // default 10AM
+                dto.StartedAt = dto.StartedAt.Date.AddHours(10); // start 10AM
             }
             if (!dto.CompletedAt.HasValue || dto.CompletedAt.Value.TimeOfDay == TimeSpan.Zero)
             {

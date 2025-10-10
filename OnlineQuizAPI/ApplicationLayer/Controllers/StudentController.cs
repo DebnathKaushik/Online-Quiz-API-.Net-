@@ -51,7 +51,12 @@ namespace ApplicationLayer.Controllers
             {
                 return Request.CreateResponse(HttpStatusCode.BadRequest, "Student Not Created");
             }
-            return Request.CreateResponse(HttpStatusCode.Created, data);
+            return Request.CreateResponse(HttpStatusCode.Created, new
+            {
+                Message="Student add Succesfully",
+                data
+            });
+
         }
 
         // api/student/update/5
