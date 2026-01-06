@@ -1,0 +1,929 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\repos\\notificationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\notificationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\repos\\quizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\quizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|d:\\my stuff\\projects\\online quiz api (.net)\\onlinequizapi\\dal\\ef\\tables\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tables\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\ef\\onlinequizcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\onlinequizcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\dtos\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\interfaces\\iquizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iquizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\interfaces\\inotificationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\inotificationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6401276-8B13-4234-933A-D5BD2C2727C6}|ApplicationLayer\\ApplicationLayer.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\applicationlayer\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6401276-8B13-4234-933A-D5BD2C2727C6}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6401276-8B13-4234-933A-D5BD2C2727C6}|ApplicationLayer\\ApplicationLayer.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\applicationlayer\\controllers\\optioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6401276-8B13-4234-933A-D5BD2C2727C6}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\controllers\\optioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\interfaces\\isubjectrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\isubjectrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\interfaces\\istudentquizattemptrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\istudentquizattemptrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\interfaces\\ioptionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\ioptionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\repos\\optionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\optionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\ef\\tables\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tables\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\ef\\tables\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tables\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\services\\studentquizattemptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\services\\studentquizattemptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\dtos\\studentdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\studentdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6401276-8B13-4234-933A-D5BD2C2727C6}|ApplicationLayer\\ApplicationLayer.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\applicationlayer\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6401276-8B13-4234-933A-D5BD2C2727C6}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\repos\\studentquizattemptrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\studentquizattemptrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\dtos\\optiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\optiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\dtos\\optiondetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\optiondetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6401276-8B13-4234-933A-D5BD2C2727C6}|ApplicationLayer\\ApplicationLayer.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\applicationlayer\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6401276-8B13-4234-933A-D5BD2C2727C6}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6401276-8B13-4234-933A-D5BD2C2727C6}|ApplicationLayer\\ApplicationLayer.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\applicationlayer\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6401276-8B13-4234-933A-D5BD2C2727C6}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\services\\quizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\services\\quizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6401276-8B13-4234-933A-D5BD2C2727C6}|ApplicationLayer\\ApplicationLayer.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\applicationlayer\\controllers\\studentquizattemptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6401276-8B13-4234-933A-D5BD2C2727C6}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\controllers\\studentquizattemptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\repos\\subjectrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\subjectrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\services\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\services\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\ef\\tables\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tables\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\dtos\\quizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\quizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\interfaces\\iquestionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iquestionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\dtos\\popularquizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\popularquizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\services\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\services\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6401276-8B13-4234-933A-D5BD2C2727C6}|ApplicationLayer\\ApplicationLayer.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\applicationlayer\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6401276-8B13-4234-933A-D5BD2C2727C6}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\migrations\\202509221433561_notificationtableadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202509221433561_notificationtableadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\ef\\tables\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tables\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\ef\\tables\\studentquizattempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tables\\studentquizattempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\services\\optionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\services\\optionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\ef\\tables\\option.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tables\\option.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\services\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\services\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\repos\\questionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\questionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\dtos\\questiondetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\questiondetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\dtos\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6401276-8B13-4234-933A-D5BD2C2727C6}|ApplicationLayer\\ApplicationLayer.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\applicationlayer\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6401276-8B13-4234-933A-D5BD2C2727C6}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\dal\\ef\\tables\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC3478D9-0ACE-46E1-8E51-E1C545527C51}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tables\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\dtos\\studentquizattemptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\studentquizattemptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\dtos\\studentquizattemptdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\studentquizattemptdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\dtos\\teacherdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\teacherdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\dtos\\subjectdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\subjectdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\dtos\\quizdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\quizdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\dtos\\teacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\teacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\bll\\dtos\\subjectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1935CF46-1938-4CCC-9CAA-033F98D8AD5E}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\subjectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotificationRepo.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Repos\\NotificationRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\NotificationRepo.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Repos\\NotificationRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\NotificationRepo.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T14:48:01.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OnlineQuizContext.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\EF\\OnlineQuizContext.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\OnlineQuizContext.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\EF\\OnlineQuizContext.cs",
+              "RelativeToolTip": "DAL\\EF\\OnlineQuizContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T14:40:50.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\NotificationService.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\Services\\NotificationService.cs",
+              "RelativeToolTip": "BLL\\Services\\NotificationService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T14:52:13.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuizRepo.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Repos\\QuizRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\QuizRepo.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Repos\\QuizRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\QuizRepo.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwEIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T06:09:05.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IQuizRepo.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Interfaces\\IQuizRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IQuizRepo.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Interfaces\\IQuizRepo.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IQuizRepo.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T06:03:34.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NotificationDTO.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\NotificationDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\NotificationDTO.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\NotificationDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\NotificationDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T14:45:07.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Quiz.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\EF\\Tables\\Quiz.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Tables\\Quiz.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\EF\\Tables\\Quiz.cs",
+              "RelativeToolTip": "DAL\\EF\\Tables\\Quiz.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T06:07:36.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataAccessFactory.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\DataAccessFactory.cs",
+              "RelativeDocumentMoniker": "DAL\\DataAccessFactory.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\DataAccessFactory.cs",
+              "RelativeToolTip": "DAL\\DataAccessFactory.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:04:11.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "INotificationRepo.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Interfaces\\INotificationRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\INotificationRepo.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Interfaces\\INotificationRepo.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\INotificationRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T14:46:17.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OptionRepo.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Repos\\OptionRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\OptionRepo.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Repos\\OptionRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\OptionRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T07:31:36.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QuestionController.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\ApplicationLayer\\Controllers\\QuestionController.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Controllers\\QuestionController.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\ApplicationLayer\\Controllers\\QuestionController.cs",
+              "RelativeToolTip": "ApplicationLayer\\Controllers\\QuestionController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:14:29.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OptionController.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\ApplicationLayer\\Controllers\\OptionController.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Controllers\\OptionController.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\ApplicationLayer\\Controllers\\OptionController.cs",
+              "RelativeToolTip": "ApplicationLayer\\Controllers\\OptionController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T10:00:47.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ISubjectRepo.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Interfaces\\ISubjectRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\ISubjectRepo.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Interfaces\\ISubjectRepo.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\ISubjectRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T08:15:49.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IStudentQuizAttemptRepo.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Interfaces\\IStudentQuizAttemptRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IStudentQuizAttemptRepo.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Interfaces\\IStudentQuizAttemptRepo.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IStudentQuizAttemptRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T07:40:25.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IOptionRepo.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Interfaces\\IOptionRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IOptionRepo.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Interfaces\\IOptionRepo.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IOptionRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T07:24:09.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\EF\\Tables\\Student.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Tables\\Student.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\EF\\Tables\\Student.cs",
+              "RelativeToolTip": "DAL\\EF\\Tables\\Student.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAiwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T04:44:42.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StudentDetailDTO.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\StudentDetailDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\StudentDetailDTO.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\StudentDetailDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\StudentDetailDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:36:38.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\ApplicationLayer\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Controllers\\NotificationController.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\ApplicationLayer\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "ApplicationLayer\\Controllers\\NotificationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T14:58:24.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\EF\\Tables\\Notification.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Tables\\Notification.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\EF\\Tables\\Notification.cs",
+              "RelativeToolTip": "DAL\\EF\\Tables\\Notification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T14:23:13.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StudentQuizAttemptService.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\Services\\StudentQuizAttemptService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\StudentQuizAttemptService.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\Services\\StudentQuizAttemptService.cs",
+              "RelativeToolTip": "BLL\\Services\\StudentQuizAttemptService.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwCgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T11:06:21.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StudentQuizAttemptRepo.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Repos\\StudentQuizAttemptRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\StudentQuizAttemptRepo.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Repos\\StudentQuizAttemptRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\StudentQuizAttemptRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswAsAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T07:47:53.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OptionDTO.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\OptionDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\OptionDTO.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\OptionDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\OptionDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:54:26.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OptionDetailsDTO.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\OptionDetailsDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\OptionDetailsDTO.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\OptionDetailsDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\OptionDetailsDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T10:01:12.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\ApplicationLayer\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\ApplicationLayer\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "ApplicationLayer\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T11:40:54.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "QuizController.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\ApplicationLayer\\Controllers\\QuizController.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Controllers\\QuizController.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\ApplicationLayer\\Controllers\\QuizController.cs",
+              "RelativeToolTip": "ApplicationLayer\\Controllers\\QuizController.cs",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAwwKUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T15:04:17.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "QuizService.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\Services\\QuizService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\QuizService.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\Services\\QuizService.cs",
+              "RelativeToolTip": "BLL\\Services\\QuizService.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAA/wHwAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T10:52:13.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "StudentQuizAttemptController.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\ApplicationLayer\\Controllers\\StudentQuizAttemptController.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Controllers\\StudentQuizAttemptController.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\ApplicationLayer\\Controllers\\StudentQuizAttemptController.cs",
+              "RelativeToolTip": "ApplicationLayer\\Controllers\\StudentQuizAttemptController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAYwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T11:41:09.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SubjectRepo.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Repos\\SubjectRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\SubjectRepo.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Repos\\SubjectRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\SubjectRepo.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAIA2wBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T08:21:22.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SubjectService.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\Services\\SubjectService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\SubjectService.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\Services\\SubjectService.cs",
+              "RelativeToolTip": "BLL\\Services\\SubjectService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T10:48:58.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Question.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\EF\\Tables\\Question.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Tables\\Question.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\EF\\Tables\\Question.cs",
+              "RelativeToolTip": "DAL\\EF\\Tables\\Question.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T06:09:22.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "QuizDTO.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\QuizDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\QuizDTO.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\QuizDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\QuizDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:46:03.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IQuestionRepo.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Interfaces\\IQuestionRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IQuestionRepo.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Interfaces\\IQuestionRepo.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IQuestionRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T07:04:16.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\StudentService.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\Services\\StudentService.cs",
+              "RelativeToolTip": "BLL\\Services\\StudentService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T10:19:18.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PopularQuizDTO.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\PopularQuizDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\PopularQuizDTO.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\PopularQuizDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\PopularQuizDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T03:38:16.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TeacherService.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\Services\\TeacherService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\TeacherService.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\Services\\TeacherService.cs",
+              "RelativeToolTip": "BLL\\Services\\TeacherService.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwDEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T10:33:35.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SubjectController.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\ApplicationLayer\\Controllers\\SubjectController.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Controllers\\SubjectController.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\ApplicationLayer\\Controllers\\SubjectController.cs",
+              "RelativeToolTip": "ApplicationLayer\\Controllers\\SubjectController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T14:15:53.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "202509221433561_NotificationTableAdd.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Migrations\\202509221433561_NotificationTableAdd.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202509221433561_NotificationTableAdd.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Migrations\\202509221433561_NotificationTableAdd.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202509221433561_NotificationTableAdd.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T14:34:00.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\EF\\Tables\\Subject.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Tables\\Subject.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\EF\\Tables\\Subject.cs",
+              "RelativeToolTip": "DAL\\EF\\Tables\\Subject.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T06:06:15.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "StudentQuizAttempt.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\EF\\Tables\\StudentQuizAttempt.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Tables\\StudentQuizAttempt.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\EF\\Tables\\StudentQuizAttempt.cs",
+              "RelativeToolTip": "DAL\\EF\\Tables\\StudentQuizAttempt.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T06:12:34.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "QuestionService.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\Services\\QuestionService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\QuestionService.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\Services\\QuestionService.cs",
+              "RelativeToolTip": "BLL\\Services\\QuestionService.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAwwEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T11:20:53.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "QuestionDTO.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\QuestionDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\QuestionDTO.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\QuestionDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\QuestionDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:53:14.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "QuestionRepo.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Repos\\QuestionRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\QuestionRepo.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\Repos\\QuestionRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\QuestionRepo.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAkwDwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T07:09:19.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "OptionService.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\Services\\OptionService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\OptionService.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\Services\\OptionService.cs",
+              "RelativeToolTip": "BLL\\Services\\OptionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T10:59:16.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Option.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\EF\\Tables\\Option.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Tables\\Option.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\EF\\Tables\\Option.cs",
+              "RelativeToolTip": "DAL\\EF\\Tables\\Option.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA3wBYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T06:10:42.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "QuestionDetailDTO.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\QuestionDetailDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\QuestionDetailDTO.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\QuestionDetailDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\QuestionDetailDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:53:44.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "TeacherController.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\ApplicationLayer\\Controllers\\TeacherController.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Controllers\\TeacherController.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\ApplicationLayer\\Controllers\\TeacherController.cs",
+              "RelativeToolTip": "ApplicationLayer\\Controllers\\TeacherController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T13:32:01.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\EF\\Tables\\Teacher.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Tables\\Teacher.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\DAL\\EF\\Tables\\Teacher.cs",
+              "RelativeToolTip": "DAL\\EF\\Tables\\Teacher.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T05:10:19.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "StudentDTO.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\StudentDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\StudentDTO.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\StudentDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\StudentDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:34:37.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "StudentQuizAttemptDTO.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\StudentQuizAttemptDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\StudentQuizAttemptDTO.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\StudentQuizAttemptDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\StudentQuizAttemptDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:55:48.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "StudentQuizAttemptDetailDTO.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\StudentQuizAttemptDetailDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\StudentQuizAttemptDetailDTO.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\StudentQuizAttemptDetailDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\StudentQuizAttemptDetailDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:56:30.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "TeacherDetailDTO.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\TeacherDetailDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\TeacherDetailDTO.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\TeacherDetailDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\TeacherDetailDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:42:11.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "SubjectDetailDTO.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\SubjectDetailDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\SubjectDetailDTO.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\SubjectDetailDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\SubjectDetailDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:45:03.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "QuizDetailDTO.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\QuizDetailDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\QuizDetailDTO.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\QuizDetailDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\QuizDetailDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:47:26.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "TeacherDTO.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\TeacherDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\TeacherDTO.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\TeacherDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\TeacherDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:41:12.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "SubjectDTO.cs",
+              "DocumentMoniker": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\SubjectDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\SubjectDTO.cs",
+              "ToolTip": "D:\\My Stuff\\PROJECTS\\Online Quiz API (.Net)\\OnlineQuizAPI\\BLL\\DTOs\\SubjectDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\SubjectDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:44:13.83Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 829,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 638,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
